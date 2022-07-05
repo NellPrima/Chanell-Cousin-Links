@@ -1,0 +1,233 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(/ChanellCousinLogo.png);
+    /*background: #fefcff;*/
+    background-position: center;
+    background-size: 5rem;
+
+}
+
+
+footer{
+    background: #5C3C61;
+    height: 30px;
+    width:100% !important;
+    
+   
+}
+
+footer p{
+    text-align: center;
+    padding:6px;
+    color: #FEFCFF;
+    font-size: 1rem;
+    font-family: raleway, sans-serif;
+}
+
+/*cell phone*/
+
+@media only screen and (min-width:320px ) and (max-width:768px){
+
+    .profile_img{
+        width: 12rem;
+        padding:1rem;
+        
+    }
+
+    .profileimagecontainer{
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         justify-content: center;
+         background-color: #aea0c5;
+         height: 24rem;
+         
+
+    }
+
+    .name{
+        font-size: 2rem;
+        color: #5C3C61;
+        font-family:Julius Sans One;
+
+        
+    }
+
+    .title{
+        font-size: 1.5rem;
+        color: #5C3C61;
+        font-family:Julius Sans One;
+
+    }
+
+    a{
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        border:1px solid white;
+        background-color: hsl(292, 26%, 35%);
+        text-decoration: none;
+        font-size: 1.5rem;
+        margin: 20px;
+        color:white;
+        padding:20px;border-radius: 10px;
+        font-family: raleway;
+       
+    }
+
+    a:hover{
+        transform: scale(1.02);
+        box-shadow:5px 5px 18px 2px rgba(0, 0, 0, 0.5) ;
+    }
+
+    .social_medias1{
+        padding-top: 5rem;
+    }
+
+    .social_medias2{
+        margin-bottom: 12rem;
+    }
+
+    footer p{
+        text-align: center;
+        padding:6px;
+        color: #FEFCFF;
+        font-size: .9rem;
+        font-family: raleway, sans-serif;
+    }
+ 
+}
+
+@media only screen and (min-width:768px ) and (max-width:1024px){
+
+    .profile_img{
+        width: 16rem;
+        padding:1rem;
+        
+    }
+
+    .profileimagecontainer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: #aea0c5;
+        height: 24rem;
+        
+
+   }
+
+   .name{
+       font-size: 2rem;
+       color: #5C3C61;
+       font-family:Julius Sans One;
+
+       
+   }
+
+   .title{
+       font-size: 1.5rem;
+       color: #5C3C61;
+       font-family:Julius Sans One;
+
+   }
+
+  
+    a{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border:4px solid #aea0c5;
+        background-color: #6a4270;
+        text-decoration: none;
+        text-align: center;
+        font-size: 1.5rem;
+        margin: 20px;
+        color:white;
+        padding:20px;border-radius: 10px;
+        font-family: raleway;
+     
+       
+     
+    }
+
+   
+
+    a:hover{
+        transform: scale(1.02);
+        box-shadow:5px 5px 18px 2px rgba(0, 0, 0, 0.5) ;
+    }
+    
+
+    .social_medias1{
+        padding-top: 5rem;
+    }
+
+    .social_medias2{
+        margin-bottom: 15rem;
+    }
+ 
+
+
+
+}
+
+
+@media only screen and (min-width:1024px ) and (max-width:2000px){
+
+    .profile_img{
+        width: 18rem;
+        padding:1rem;
+        
+    }
+
+    .profileimagecontainer{
+        display:flex;
+        align-content: center;
+        justify-content: center;
+    }
+
+    .name{
+        /*change font*/
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        color: #5C3C61;
+        font-family:Julius Sans One;
+        font-size: 2.5rem;
+        padding-bottom: 5rem;
+    }
+
+    a{
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        border:1px solid white;
+        background-color: hsl(292, 26%, 35%);
+        text-decoration: none;
+        font-size: 1.5rem;
+        margin: 20px;
+        color:white;
+        padding:20px;
+        border-radius: 10px;
+        font-family: raleway;;
+       
+    }
+
+    a:hover{
+        transform: scale(1.02);
+        box-shadow:5px 5px 18px 2px rgba(0, 0, 0, 0.5) ;
+    }
+
+    .social_medias2{
+        margin-bottom: 15rem;
+    }
+ 
+
+}
