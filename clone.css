@@ -34,7 +34,7 @@ footer p{
 @media only screen and (min-width:320px ) and (max-width:768px){
 
     .profile_img{
-        width: 12rem;
+        width: 10rem;
         padding:1rem;
         
     }
@@ -45,7 +45,8 @@ footer p{
          align-items: center;
          justify-content: center;
          background-color: #aea0c5;
-         height: 24rem;
+         height: 22rem;
+         margin-top: -4rem;
          
 
     }
@@ -59,26 +60,44 @@ footer p{
     }
 
     .title{
-        font-size: 1.5rem;
+        font-size: 1.2rem;
         color: #5C3C61;
         font-family:Julius Sans One;
+        text-align: center;
+        padding-top:1rem;
 
     }
 
-    a{
+    .socials{
         display: flex;
-        align-content: center;
+        flex-direction: column;
         justify-content: center;
-        border:1px solid white;
-        background-color: hsl(292, 26%, 35%);
-        text-decoration: none;
-        font-size: 1.5rem;
-        margin: 20px;
-        color:white;
-        padding:20px;border-radius: 10px;
-        font-family: raleway;
+        align-items: center;
+     
+        
        
-    }
+    
+       }
+    
+       a{
+        border:4px solid #aea0c5;
+        background-color: #6a4270;
+        text-decoration: none;
+        text-align: center;
+        font-size: 1rem;
+        margin: 16px;
+        color:white;
+        padding:12px;
+        border-radius: 10px;
+        font-family: raleway;
+        width: 20rem;
+        
+       
+    
+       }
+    
+
+ 
 
     a:hover{
         transform: scale(1.02);
@@ -86,7 +105,7 @@ footer p{
     }
 
     .social_medias1{
-        padding-top: 5rem;
+        padding-top: 2rem;
     }
 
     .social_medias2{
@@ -102,6 +121,8 @@ footer p{
     }
  
 }
+
+/*tablet*/
 
 @media only screen and (min-width:768px ) and (max-width:1024px){
 
@@ -134,28 +155,43 @@ footer p{
        font-size: 1.5rem;
        color: #5C3C61;
        font-family:Julius Sans One;
+       text-align: center;
+       padding-top:1rem;
+
+
+   }
+
+   
+   .socials{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ 
+    
+   
+
+   }
+
+   a{
+    border:4px solid #aea0c5;
+    background-color: #6a4270;
+    text-decoration: none;
+    text-align: center;
+    font-size: 1.5rem;
+    margin: 14px;
+    color:white;
+    padding:14px;
+    border-radius: 10px;
+    font-family: raleway;
+    width: 40rem;
+    
+   
 
    }
 
   
-    a{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        border:4px solid #aea0c5;
-        background-color: #6a4270;
-        text-decoration: none;
-        text-align: center;
-        font-size: 1.5rem;
-        margin: 20px;
-        color:white;
-        padding:20px;border-radius: 10px;
-        font-family: raleway;
-     
-       
-     
-    }
+
 
    
 
@@ -182,43 +218,76 @@ footer p{
 @media only screen and (min-width:1024px ) and (max-width:2000px){
 
     .profile_img{
-        width: 18rem;
+        width: 10rem;
         padding:1rem;
+        margin-top:-5rem;
         
     }
 
+
+
     .profileimagecontainer{
-        display:flex;
-        align-content: center;
-        justify-content: center;
-    }
-
-    .name{
-        /*change font*/
         display: flex;
-        align-content: center;
+        flex-direction: column;
+        align-items: center;
         justify-content: center;
-        color: #5C3C61;
-        font-family:Julius Sans One;
-        font-size: 2.5rem;
-        padding-bottom: 5rem;
-    }
+        background-color: #aea0c5;
+        height: 20rem;
+        
 
-    a{
-        display: flex;
-        align-content: center;
-        justify-content: center;
-        border:1px solid white;
-        background-color: hsl(292, 26%, 35%);
-        text-decoration: none;
-        font-size: 1.5rem;
-        margin: 20px;
-        color:white;
-        padding:20px;
-        border-radius: 10px;
-        font-family: raleway;;
+   }
+
+   .name{
+       font-size: 2rem;
+       color: #5C3C61;
+       font-family:Julius Sans One;
+       margin-top:2rem;
+
        
-    }
+   }
+
+   .title{
+       font-size: 1.5rem;
+       color: #5C3C61;
+       font-family:Julius Sans One;
+
+   }
+
+  
+   .socials{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+   
+
+   }
+
+   a{
+    border:4px solid #aea0c5;
+    background-color: #6a4270;
+    text-decoration: none;
+    text-align: center;
+    font-size: 1.5rem;
+    margin: 19px;
+    color:white;
+    padding:10px;
+    border-radius: 10px;
+    font-family: raleway;
+    width: 50rem;
+
+   }
+
+   .social_medias1{
+    padding-top:4rem;
+
+   }
+
+
+
+
+   
 
     a:hover{
         transform: scale(1.02);
