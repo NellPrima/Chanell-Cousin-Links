@@ -12,6 +12,10 @@ body{
 
 }
 
+span{
+    color: #875c74;
+}
+
 
 footer{
     background: #875c74;
@@ -46,7 +50,7 @@ footer p{
          flex-direction: column;
          align-items: center;
          justify-content: center;
-         background-color: #875c74;
+         
          height: 24rem;
          margin-top: -4rem;
          
@@ -55,7 +59,7 @@ footer p{
 
     .name{
         font-size: 2rem;
-        color: #FBF4EF;
+        color: #110E0E;
         font-family:Julius Sans One;
 
         
@@ -63,10 +67,11 @@ footer p{
 
     .title{
         font-size: 1.2rem;
-        color: #FBF4EF;
+        color: #110E0E;
         font-family:Jura;
         text-align: center;
         padding-top:1rem;
+        line-height: 1.8rem;
 
     }
 
@@ -82,7 +87,7 @@ footer p{
        }
     
        a{
-        border:4px solid #110e0e;
+        border:2px solid #875c74;
         background-color: #875c74;
         text-decoration: none;
         text-align: center;
@@ -103,7 +108,9 @@ footer p{
 
     a:hover{
         transform: scale(1.02);
-        box-shadow:5px 5px 18px 2px rgba(0, 0, 0, 0.5) ;
+        color:#875c74;
+        background-color: #FBF4EF;
+
     }
 
     .social_medias1{
@@ -139,15 +146,14 @@ footer p{
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        background-color: #875c74;
         height: 24rem;
         
 
    }
 
    .name{
-       font-size: 2rem;
-       color:#FBF4EF;
+       font-size: 3rem;
+       color:#110E0E;
        font-family:Julius Sans One;
 
        
@@ -155,10 +161,11 @@ footer p{
 
    .title{
        font-size: 1.5rem;
-       color: #FBF4EF;
-       font-family:Julius Sans One;
+       color: #110E0E;
+       font-family:jura;
        text-align: center;
        padding-top:1rem;
+       line-height: 2rem;
 
 
    }
@@ -175,32 +182,34 @@ footer p{
 
    }
 
+   
    a{
-    border:4px solid #110e0e;
+    border:2px solid #875c74;
     background-color: #875c74;
     text-decoration: none;
     text-align: center;
-    font-size: 1.5rem;
-    margin: 14px;
+    font-size: 1rem;
+    margin: 16px;
     color:#f3efef;
-    padding:14px;
+    padding:12px;
     border-radius: 10px;
     font-family: Jura;
-    width: 40rem;
+    width: 20rem;
     
    
 
    }
 
-  
 
 
-   
 
-    a:hover{
-        transform: scale(1.02);
-        box-shadow:5px 5px 18px 2px rgba(0, 0, 0, 0.5) ;
-    }
+a:hover{
+    transform: scale(1.02);
+    color:#875c74;
+    background-color: #FBF4EF;
+
+}
+
     
 
     .social_medias1{
@@ -216,12 +225,13 @@ footer p{
 
 }
 
+/*Desktop*/
 
 @media only screen and (min-width:1024px ) and (max-width:2000px){
 
     .profile_img{
-        width: 10rem;
-        padding:1rem;
+        width: 15rem;
+        padding-top:8rem;
         margin-top:-5rem;
         
     }
@@ -233,15 +243,15 @@ footer p{
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        background-color: #875c74;
-        height: 20rem;
+        
+    
         
 
    }
 
    .name{
-       font-size: 2rem;
-       color: #FBF4EF;
+       font-size: 4rem;
+       color: #110E0E;
        font-family:Julius Sans One;
        margin-top:2rem;
 
@@ -250,8 +260,13 @@ footer p{
 
    .title{
        font-size: 1.5rem;
-       color: #FBF4EF;
-       font-family:Julius Sans One;
+       color: #110E0E;
+       font-family:jura;
+       padding-top:5rem;
+       line-height: 2rem;
+       text-align: center;
+       padding-left: 18rem;
+       padding-right: 18rem;
 
    }
 
@@ -266,20 +281,35 @@ footer p{
 
    }
 
+  
    a{
-    border:4px solid #110e0e;
+    border:2px solid #875c74;
     background-color: #875c74;
     text-decoration: none;
     text-align: center;
-    font-size: 1.5rem;
-    margin: 19px;
+    font-size: 1.3rem;
+    margin: 16px;
     color:#f3efef;
-    padding:10px;
+    padding:12px;
     border-radius: 10px;
     font-family: Jura;
-    width: 50rem;
+    width: 40rem;
+    height: 3rem;
+    
+    
+   
 
    }
+
+
+
+
+a:hover{
+    transform: scale(1.02);
+    color:#875c74;
+    background-color: #FBF4EF;
+
+}
 
    .social_medias1{
     padding-top:4rem;
@@ -291,10 +321,7 @@ footer p{
 
    
 
-    a:hover{
-        transform: scale(1.02);
-        box-shadow:5px 5px 18px 2px rgba(0, 0, 0, 0.5) ;
-    }
+   
 
     .social_medias2{
         margin-bottom: 1rem;
